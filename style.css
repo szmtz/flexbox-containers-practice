@@ -1,8 +1,12 @@
+/* Justifying means changing how elements are grouped and spaced on the main axis. To justify flex items, we use the justify-content property. */
+
+
+
+
 .container {
     border: solid 2px #806868;
     display: flex;
-    
-   : flex-start;
+   justify-content: flex-start;
    }
    
    .item {
