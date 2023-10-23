@@ -1,4 +1,15 @@
-/* Justifying means changing how elements are grouped and spaced on the main axis. To justify flex items, we use the justify-content property. */
+/* Justifying means changing how elements are grouped and spaced on the main axis. To justify flex items, we use the justify-content property. 
+
+flex-start means all of the flex items are grouped together at the beginning of the container.
+
+To group all items at the end of the container, we use flex-end.
+
+justify-content also works when flex-direction is set to column.
+
+With flex-direction set to column, flex-end means all the content is grouped at the bottom of the container.
+
+
+*/
 
 
 
@@ -6,7 +17,8 @@
 .container {
     border: solid 2px #806868;
     display: flex;
-   justify-content: flex-start;
+    flex-direction: column; /* set to row by default */ 
+    justify-content: flex-end;
    }
    
    .item {
